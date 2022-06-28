@@ -1,0 +1,21 @@
+#nav-bar {
+    position: fixed;
+    top: 0px;
+    right: 0px;
+}
+
+#header-img {
+    max-width: 40%;
+    max-height: 10%;
+}
+
+@media all and (max-width: 600px) {
+    body {
+        background-color: aquamarine;
+    }
+}
+
+.flexbox-container {
+    display: flex;
+    justify-content: flex-start;
+}
